@@ -26,8 +26,7 @@
     text-decoration: underline;
     color: black;
     background-color: white;
-    font-weight: bold;
-    transition: color .1s;
+    border-radius: 2px;
   }
   
   button:hover {
@@ -51,8 +50,6 @@
   ul li article h3 {
     text-decoration: none;
     background-color: black;
-    font-weight: bold;
-    transition: color .1s;
   }
   
   ul li article h3 a {

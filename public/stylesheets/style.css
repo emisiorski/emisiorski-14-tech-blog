@@ -56,7 +56,7 @@
   }
   
   ul li article h3 a {
-    color: #76ca94;
+    color: #7e5f70;
   }
   
   ul li a {
@@ -75,7 +75,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #76ca94;
+    border: 1px solid #7e5f70;
   }
   
   textarea {
@@ -120,7 +120,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #76ca94;
+    color: #7e5f70;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -137,7 +137,7 @@
   }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: #e22a2a;
   }
   
   .post {

@@ -4,11 +4,11 @@ async function loginFormHandler(event) {
 
     const password = document.querySelector('#password-login').value.trim();
   
-    if (email && password) {
+    if (username && password) {
       const response = await fetch('/api/users/login', {
         method: 'post',
         body: JSON.stringify({
-          email,
+          username,
           password
         }),
         headers: { 'Content-Type': 'application/json' }
@@ -33,7 +33,6 @@ async function loginFormHandler(event) {
         method: 'post',
         body: JSON.stringify({
           username,
-          email,
           password
         }),
         headers: { 'Content-Type': 'application/json' }

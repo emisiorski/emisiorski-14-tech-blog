@@ -6,14 +6,14 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    color: #333;
-    background-color: #7ac494;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: rgb(247, 213, 219);
   }
   
   header nav a {
     text-decoration: none;
-    color: #76ca94;
+    color: #7e5f70;
     font-weight: bold;
     transition: color .1s;
   }
@@ -23,7 +23,7 @@
   }
   
   button {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
     background-color: white;
     font-weight: bold;
@@ -36,7 +36,7 @@
   
   header h1 {
     font-size: 1em;
-    background-color: #76ca94;
+    background-color: #7e5f70;
   }
   
   header h1 a {
